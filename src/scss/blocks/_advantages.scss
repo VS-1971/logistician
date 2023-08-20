@@ -1,0 +1,58 @@
+.advantages {
+    padding: 57px 0 51px 0;
+    min-height: 410px;
+    background-color: #f3f3f3;
+    &__title {
+        color: #2e2e2e;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 23px;
+        text-align: center;
+    }
+
+    &__features {
+        padding-top: 32px;
+        display: grid;
+       // grid-template-columns: 500px 500px;
+       grid-template: repeat(4, minmax(70px, auto)) / repeat(2, 500px);
+        column-gap: 99px;
+        justify-content: space-between ;
+        grid-auto-rows: 70px;
+       
+    }
+
+    &__about_us {
+        display: grid;
+        grid-template-columns: 64px 424px;
+        column-gap: 13px;
+        row-gap: 36px;
+    }
+
+    img {
+        margin-top: 6px;
+        width: 64px;
+        height: 55px;
+        object-fit: contain;
+    }
+
+    &__descr {
+        display: grid;
+        grid-template-columns: 424px;
+        grid-template-rows: 10px 30px;
+        grid-auto-rows: 30px;
+        row-gap: 10px;
+    }
+
+    &__subheader {
+        color: #ec644b;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 10px;
+    }
+
+    &__text {
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+    }
+}

@@ -1,0 +1,89 @@
+.review {
+    padding: 51px 0 58px 0;
+    h2 {
+        color: #2e2e2e;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 23px;
+    }
+
+    .divider{
+        margin-top: 25px;
+    }
+
+    &__subtitle {
+        margin-top: 17px;
+        color: #2e2e2e;
+        font-size: 21px;
+        font-weight: 300;
+        text-align: center;
+    }
+    .carousel {
+        margin: 0 auto;
+        width: 601px;
+        height: 241px;
+
+        .slick-slider {
+            margin-top: 31px;
+            display: flex;
+        }
+       
+        .slick-prev {
+            position: relative;
+            display: block;
+            background-color: #ffffff;
+            border: none;
+            left: 30%;
+            width: 14px;
+            height: 46px;
+            z-index: 2;
+            img {
+                position: absolute;
+               // left: 30%;
+                width: 14px;
+                height: 46px;
+               
+                
+            }
+        }
+
+        .slick-next {
+            position: relative;
+            display: block;
+            background-color: #ffffff;
+            border: none;
+            right: 30%;
+            width: 14px;
+            height: 46px;
+            img {
+                position: absolute;
+                width: 14px;
+                height: 46px;
+            }
+        }
+        
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 114px;
+            height: 114px;
+            border-radius: 100%;
+        }
+
+        &__name {
+            text-align: center;
+            margin-top: 19px;
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        &__text {
+            margin-top: 19px;
+            height: 108px;
+            color: #3a3a3a;
+            font-size: 14px;
+            font-weight: 300;
+            text-align: center;
+        }
+    }
+}

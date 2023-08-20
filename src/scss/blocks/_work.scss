@@ -1,0 +1,61 @@
+.work {
+    max-height: 525px;
+    padding: 28px 0 57px 0;
+    h2 {
+        padding: 0;
+        margin: 0;
+        color: #2e2e2e;
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .divider {
+        display: block;
+        margin: 20px auto 0 auto;
+        width: 148px;
+        height: 1px;
+        background-color: #ec644b;
+    }
+
+    &__title {
+        display: block;
+        margin: 17px auto 0 ;
+        width: 879px;
+        height: 44px;
+        color: #2e2e2e;
+        font-size: 21px;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    &__cards {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 360px 360px 360px;
+        column-gap: 30px;
+        grid-template-rows: 470px;
+    }
+
+    &__business {
+        display: grid;
+        grid-template-columns: 360px;
+        grid-template-rows: 210px 10px 130px;
+        row-gap: 28px;
+    }
+
+    &__subhedar {
+        color: #ec644b;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    &__text {
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+    }
+}

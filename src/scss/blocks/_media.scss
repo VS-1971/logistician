@@ -1,0 +1,80 @@
+@media (max-width: 1200px) {
+        .container {
+            width: 990px;
+        }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 760px;
+        .menu {
+            &__logo {
+                padding-right: 9px;
+            }
+
+            &__link {
+                font-size: 12px;
+            }
+
+            &__item {
+                text-align: center;
+                border: none;
+            }
+
+            &__questions {
+                font-size: 12px;
+                line-height: 20px;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+     .container {
+        width: 577px;
+        .menu {
+            display: none;
+        }
+     }
+
+     .hamburger {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        width: 30px;
+        height: 12px;
+           span{
+                display: block;
+                height: 2px;
+                width: 100%;
+                background-color: #fff;
+                margin-bottom: 3px;
+                transition: 0.5s all;
+                &:activ {
+                      span {
+                    margin-bottom: -2px;
+                    &:nth-last-child(1) {
+                        transform: translateY(3px) rotate(-45deg);
+                    }     
+                    &:nth-last-child(2) {
+                        display: none;	
+                    }      			
+                    &:nth-last-child(3) {
+                        transform: translateY(3px) rotate(45deg);
+                    }
+                }  
+                }
+                
+            }
+     }
+}
+
+@media (max-width: 576px) {
+    
+}
+
+@media (max-width: 1200px) {
+    
+}

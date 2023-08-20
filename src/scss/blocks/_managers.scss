@@ -1,0 +1,42 @@
+.managers {
+    margin-top: 58px;
+    padding: 58px 0 76px 0;
+    height: 280px;
+    //opacity: 0.5;
+    background: url(../img/background/4-layers.png) no-repeat 50%/cover;
+
+    &__circle {
+        width: 102px;
+        height: 102px;
+        border: 1px solid #ffffff;
+        border-radius: 100%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 53px;
+            height: 53px;
+            color: #ffffff;
+        }
+    }
+
+    h2 {
+        margin-top: 20px;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 23px;
+        text-align: center;
+    }
+
+    &__subtitle {
+        width: 924px;
+        display: block;
+        margin: 18px auto 0;
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 27px;
+        text-align: center;
+    }
+}

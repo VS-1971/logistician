@@ -1,0 +1,48 @@
+.map {
+    min-height: 500px;
+    display: block;
+    margin: 0 auto;
+    .map-widget-content-view__frame{
+        padding: 27px 49px 29px 53px;
+        position: absolute;
+        left: 20px;
+        width: 329px;
+        max-height: 158px;
+        background-color: #ffffff;
+      h3 {
+        color: #ec644b;
+        font-size: 16px;
+        font-weight: 700;
+      }
+
+      &__descr {
+        color: #3a3a3a;
+        font-size: 14px;
+      }
+
+      .email {
+        color: #ec644b;
+        font-size: 16px;
+        font-weight: 700;
+      }
+    }
+/*
+    .map-circle-placemark__caption {
+      position: absolute;
+      transform:translate(1258px, 82px);
+      width: 329px;
+      height: 158px;
+      background-color: #ffffff;
+    }
+    */
+    iframe {
+      width: 100%;
+      height: 500px;
+      background-color: #ffffff;
+    }
+    .place-card {
+      width: 329px;
+      height: 158px;
+      background-color: #ffffff;
+    }
+}

@@ -1,0 +1,98 @@
+.prices {
+    height: 550px;
+    padding: 53px 0 58px 0;
+    h2 {
+        color: #2e2e2e;
+        font-family: Roboto;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 23px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    &__title {
+        display:  block;
+        margin: 17px auto 0;
+        width: 689px;
+        color: #2e2e2e;
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    &__rates {
+        display: grid;
+        grid-template-columns: repeat(4, 265px);
+        grid-template-rows: 365px;
+        column-gap: 28px;
+        justify-content: space-between;
+        margin-top: 24px;   
+    }
+
+    &__card {
+        padding-bottom: 25px;
+        width: 265px;
+        min-height: 355px;
+        border: 1px solid #e9e9e9;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__header {
+        width: 100%;
+        height: 61px;
+        background-color: #25333c;
+        text-align: center;
+        color:#ffffff;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 57px;
+    }
+
+    &__subheader {
+        color: #2e2e2e;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    &__prices {
+        color: #ec644b;
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    &__text {
+        color: #2e2e2e;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    &__btn {
+        margin-top: 25px;
+        width: 160px;
+        height: 45px;
+        background-color: #dc5238;
+        border-bottom-left-radius: 27px;
+        border-top-left-radius: 27px;
+        border-bottom-right-radius: 27px;
+        border-top-right-radius: 27px;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        a {
+            color: #ffffff;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 42.04px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+    }
+}

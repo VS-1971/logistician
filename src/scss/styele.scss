@@ -1,0 +1,36 @@
+* {
+    font-family: 'Roboto-Condensed';
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 23px 0 0 0;
+    width: 1148px;
+    margin: 0 auto;
+}
+
+.divider {
+    display: block;
+    margin: 20px auto 0;
+    width: 148px;
+    height: 1px;
+    background-color: #ec644b;
+}
+
+@import 'blocks/header';
+@import 'blocks/advantages';
+@import 'blocks/work';
+@import 'blocks/agent';
+@import 'blocks/prices';
+@import 'blocks/consultation';
+@import 'blocks/managers';
+@import 'blocks/schemes';
+@import 'blocks/review';
+@import 'blocks/questions';
+@import 'blocks/map';
+@import 'blocks/footer';
+
+
+
+@import 'blocks/media';

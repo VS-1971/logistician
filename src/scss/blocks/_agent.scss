@@ -1,0 +1,35 @@
+.agent {
+    height: 342px;
+    padding: 58px 0 75px 0;
+    background: url(../img/background/layers.png) no-repeat 50%/cover;
+    &__circle {
+        width: 102px;
+        height: 102px;
+        border: 1px solid #ffffff;
+        border-radius: 100%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 48px;
+            height: 51px;
+        }
+    }
+
+    h2 {
+        margin-top: 22px;
+        margin-bottom: 0;
+    }
+
+    &__subtitle {
+        width: 984px;
+        height: 46px;
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 27px;
+        text-align: center;
+        margin: 22px auto 0;
+    }
+}

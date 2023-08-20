@@ -1,0 +1,59 @@
+.schemes {
+    height: 454px;
+    background-color: #f3f3f3;
+    padding: 51px 0 48px 0;
+    h2 {
+        margin: 0;
+        color: #2e2e2e;
+        font-family: Roboto;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 23px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__row-1 {
+        margin-top: 23px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__row-2 {
+        margin-top: 46px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    &__card {
+        width: 257px;
+        min-height: 125px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;;
+        align-items: center;
+        img {
+           min-width: 50px;
+            min-height: 50px;
+            object-fit: cover;
+        }
+    }
+
+    &__header {
+        margin-top: 14px;
+        color: #ec644b;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+
+    &__text {
+        margin-top: 10px;
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        text-align: center;
+    }
+}
